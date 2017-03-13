@@ -219,7 +219,7 @@ Marker interface used by List implementations to indicate that
     }
 ~~~
 
-`public boolean addAll(Collection<? extends E> c)` 将指定集合全部插入到数组尾部。
+`public boolean addAll(Collection<? extends E> c)` 将指定集合全部插入到数组尾部。  
 `public boolean addAll(int index, Collection<? extends E> c)`  将指定集合全部插入到数组指定位置。
 执行流程与之前的添加插入方法类似。
 
